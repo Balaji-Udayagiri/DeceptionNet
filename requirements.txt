@@ -1,0 +1,6 @@
+langchain
+transformers
+torch
+yagmail
+python-dotenv 
+streamlit
