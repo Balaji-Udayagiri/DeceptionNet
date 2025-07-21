@@ -7,3 +7,7 @@ The agent watches for suspicious behaviors — such as injected instructions (rm
 We focused specifically on SAFE-T1102 – Prompt Injection (Multiple Vectors) from the SAFE-MCP (Model Context Protocol) framework. This attack vector involves injecting malicious instructions through multiple channels to manipulate an AI agent’s behavior. DeceptionNet tackles this by turning the attack surface into a learning surface — capturing attempted abuses without ever exposing real functionality.
 
 We also added a human-in-the-loop policy validation step: any generated permissions or tool access policies are emailed to a reviewer for approval, ensuring accountability before action.
+
+```
+streamlit run src/ui.py
+```
