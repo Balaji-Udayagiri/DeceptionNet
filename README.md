@@ -8,6 +8,8 @@ We focused specifically on SAFE-T1102 – Prompt Injection (Multiple Vectors) fr
 
 We also added a human-in-the-loop policy validation step: any generated permissions or tool access policies are emailed to a reviewer for approval, ensuring accountability before action.
 
+This project was a part of the AI Agents and MCP Hackathon. Visit the post for more information [click here](https://www.linkedin.com/posts/the-ai-agents-community_%F0%9D%90%80%F0%9D%90%88-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%AC-%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9D-%F0%9D%90%8C%F0%9D%90%82%F0%9D%90%8F-%F0%9D%90%87%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A4%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%A8%F0%9D%90%A7-activity-7352885706819555328-siHn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC0juKYBLdqmKDNylCdDe80Qus9iAU7DIDw).
+
 ```
 streamlit run src/ui.py
 ```
